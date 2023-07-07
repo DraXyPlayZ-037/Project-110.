@@ -1,0 +1,56 @@
+<html>
+
+<head>
+    <title>Hand Gesture Web App!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <center>
+        <h1 class="btn btn-primary">GESTURE WEB APP
+            <br>
+            <span>&#9757;</span>
+            <span>&#9995;</span>
+            <span>&#9996;</span>
+            <span>&#128070;</span>
+            <span>&#128075;</span>
+            <span>&#128076;</span>
+        </h1>
+        <br>
+        <br>
+        <h5>Take a selfie or gesture to know what it means</h5>
+        <br>
+        <h6>On the following gestures the model is trained- </h6>
+        <h2><span>&#9996;</span><span>&#128076;</span>
+            <span>&#129304;</span><span>&#128400;</span><span>&#128079;</span></h2>
+        <button class="camos" onclick="predict()">Prediction-</button>
+        <br>
+        <br>
+        <br>
+    </center>
+
+    <div class="col-sm-3, col-lg-5, col-xs-3, col-md-4">
+
+        <h4 class="camos">Webcam View-</h4>
+        <div id="camera"></div>
+        <button class="btn btn-primary">Capture Image</button>
+
+    </div>
+    <span>&nbsp;</span> <span>&nbsp;</span>
+    <div class="col-sm-3, col-lg-5, col-xs-3, col-md-4">
+        <h4 class="camos">Snapshot-</h4>
+        <div id="output"></div>
+        <button class="btn btn-primary">Predict Emoji</button>
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>

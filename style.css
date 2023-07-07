@@ -1,0 +1,34 @@
+h5 {
+    background-color: azure;
+    color: coral;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h6 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: bisque;
+}
+
+.camos {
+    color: rgb(122, 201, 2);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 7px;
+    border-width: 2px;
+}
+
+#camera {
+    border: 3px, black, dotted;
+    width: 50%;
+    height: 300px;
+}
+
+#output {
+    border: 3px, black, dotted;
+    width: 50%;
+    height: 300px;
+}
